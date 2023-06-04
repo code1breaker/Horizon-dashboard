@@ -15,7 +15,9 @@ const Second = () => {
   return (
     <div className="flex md:flex-col gap-5">
       <div className="rounded-3xl w-1/2 md:w-full h-[22rem] bg-white dark:bg-[#131c41] p-6">
-        <p className="text-gray-800 text-xl font-semibold">Friday, 25 Jun</p>
+        <p className="text-gray-800 dark:text-white text-xl font-semibold">
+          Friday, 25 Jun
+        </p>
         <p className="text-gray-400 font-semibold text-sm mt-1">
           New York, USA
         </p>
